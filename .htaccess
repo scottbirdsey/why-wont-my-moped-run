@@ -331,9 +331,7 @@ FileETag None
 
 <IfModule mod_rewrite.c>
   Options +FollowSymlinks
-# Options +SymLinksIfOwnerMatch
   RewriteEngine On
-# RewriteBase /
 </IfModule>
 
 
@@ -538,3 +536,5 @@ AddCharset utf-8 .atom .css .js .json .rss .vtt .xml
 <IfModule php5_module>
   php_value session.cookie_httponly true
 </IfModule>
+RewriteBase /
+RewriteRule !\.(html|htm|gif|jpg|jpeg|png|css|js|pdf|swf|ppt|pptx|doc|xml|ico)$ index.php
