@@ -3,13 +3,13 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    <Scott Birdsey> -- <Creator> -- <twitter.com/scottbirdsey>
 
 # THANKS
 
-    <name>
+    <Holmes brothers, Simone Rodriguez, James Padolsey>
 
 # TECHNOLOGY COLOPHON
 
-    HTML5, CSS3
-    jQuery, Modernizr
+    PHP, HTML5, CSS3
+    jQuery, Modernizr, Form Submit with AJAX, jQuery autoGrowInput
