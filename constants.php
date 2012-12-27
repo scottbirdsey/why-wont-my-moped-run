@@ -1,9 +1,9 @@
 <?php
 
-define("DB_SERVER", "SERVER");
-define("DB_USER", "USER");
-define("DB_PASS", "PASS");
-define("DB_NAME", "NAME");
+define("DB_SERVER", "localhost");
+define("DB_USER", "root");
+define("DB_PASS", "password");
+define("DB_NAME", "why_wont_my_moped_run");
 
 $connection = mysql_connect(DB_SERVER, DB_USER, DB_PASS);
 if(!$connection) {
